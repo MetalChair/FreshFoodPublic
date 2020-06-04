@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <link rel="stylesheet" href="../assets/css/all.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../assets/scripts/cookie_handler.js"></script>
+    <script src="../assets/scripts/radial_menu.js"></script>
+    <script src="../assets/scripts/recipe_finder.js"></script>
+    
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <div class="help-overlay text-light">
+        <h3>
+            <i class="fas fa-chevron-left"></i>
+            &nbsp;Swipe left and right to browse recipes!&nbsp;
+            <i class="fas fa-chevron-right"></i>
+            <br>
+            &nbsp;Right click to select meal restrictions
+            <i class="fas fa-mouse"></i>
+        </h3>
+    </div>
+      <!--Navbar begin-->
+          <nav class="navbar bg-light mb-2">
+              <a href="/" class="navbar-brand text-dark">Fresh Food Fast</a>
+
+              <ul class="page-navi-links list-group list-group-horizontal-sm mr-2">
+                    <li class="list-group-item"><a href="/recipe_finder">Recipes</a></li>
+                    <li class="list-group-item"><a href="/favorites_list">Favorites</a></li>
+                    <li class="list-group-item"><a href="/location_finder">Stores</a></li>
+                </ul>
+
+              <div class="dropdown">
+                  <button class="btn btn-light btn-outline-dark text-right dropdown-toggle" type="button" id="nav-menu-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span><i class="fas fa-bars"></i></span>
+                  </button>
+
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="nav-menu-drop">
+                    <a class="dropdown-item" href="./recipe_finder"> Recipes</a>
+                    <a class="dropdown-item" href="./favorites_list"> Favorites</a>
+                    <a class="dropdown-item" href="./location_finder">Stores</a>
+                </div>
+              </div>
+          </nav>
+    <!--Navbar end-->
+    <main class="container">
+        <div class="clearfix recipe-jumbo text-center">
+            <div class="row clearfix recipe-row justify-content-center">
+                <div class="card card-front recipe-card card-1 justify-content-center">
+                    <div class="row justify-content-center">
+                        <div><h3><b class="recipe-title"></b></h3></div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-preview"></div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-time"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-serves"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-difficulty"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-dietary container-fluid">
+                        </div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-soy">
+                            
+                        </div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <a class="btn recipe-button btn-outline-primary btn-block">Make This!</a>
+                    </div>
+                </div>
+                
+                <div class="card card-back recipe-card card-2 justify-content-center">
+                    <div class="row justify-content-center">
+                        <div><h3><b class="recipe-title"></b></h3></div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-preview"></div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-time"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-serves"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-difficulty"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-dietary container-fluid">
+                        </div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-soy">
+                            
+                        </div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <a class="btn recipe-button btn-outline-primary btn-block">Make This!</a>
+                    </div>
+                </div>
+                <div class="card recipe-card card-fake">
+                    <div class="row justify-content-center">
+                        <div><h3><b class="recipe-title"></b></h3></div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-preview"></div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-time"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-serves"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <h4><div class="recipe-difficulty"></div></h4>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-dietary container-fluid">
+                        </div>
+
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <div class="recipe-soy">
+                            
+                        </div>
+                    </div>
+                    <div class="container recipe-card-padding justify-content-center">
+                        <a class="btn recipe-button btn-outline-primary btn-block">Make This!</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</main>
+</body>
+</html>

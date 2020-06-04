@@ -1,0 +1,259 @@
+[
+    {
+    "name" : "Fluffy Pancakes",
+    "image_url" : "../assets/images/pancakes.bmp",
+    "time" : "25 Mins",
+    "difficulty" : "Easy",
+    "restrictions" : {
+        "soy" : false,
+        "dairy" : true,
+        "fish" : false,
+        "nuts" : false
+    },
+    "difficulty_restrictions" : {
+      "easy" : true,
+      "medium" : false,
+      "hard" : false,
+      "very_hard" : false
+    },
+    "time_restrictions" : {
+      "ten_to_thirty": true,
+      "thirty_to_sixty": false,
+      "sixty_to_ninety": false,
+      "ninety_plus": false
+    },
+    "serves": 4,
+    "rare_ingredient": true,
+    "link" : "./pancakes",
+    "grocery_list" : [
+        "Milk (3/4 cup)",
+        "White Vinegar (2 tbsp)",
+        "All-Purpose Flour (1 cup)",
+        "White Sugar (2 tbsp)",
+        "Baking Powder (1 tsp)",
+        "Baking Soda (1/2 tsp)",
+        "Salt (1/2 tsp)",
+        "Egg (one of them)",
+        "Butter, melted (2 tbsp)",
+        "Cooking Spray"
+    ],
+    "id" : 0,
+    "cooking_instructions" : [
+        "Combine milk with vinegar in a medium bowl",
+        "Set mixture aside for 5 minutes to \"sour\"",
+        "Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl",
+        "Whisk egg and butter into \"soured\" milk",
+        "Pour the flour mixture into the wet ingredients",
+        "Whisk until lumps are gone",
+        "Head a large skillet over medium heat",
+        "Coat skillet with cooking spray",
+        "Pour 1/4 cupfuls of batter onto the skillet",
+        "Cook until bubbles appear on the surface",
+        "Flip with a spatula",
+        "Cook until browned on other side"
+    ]
+    },
+
+
+
+    {
+        "name" : "Salade Niçoise au Thon",
+        "image_url" : "../assets/images/saladenicoise.bmp",
+        "time" : "30-60 Mins",
+        "serves": "8-10",
+        "rare_ingredient": false,
+        "difficulty" : "Medium",
+        "restrictions" : {
+            "soy" : false,
+            "dairy" : false,
+            "fish" : true,
+            "nuts" : false
+        },
+        "difficulty_restrictions" : {
+          "easy" : false,
+          "medium" : true,
+          "hard" : false,
+          "very_hard" : false
+        },
+        "time_restrictions" : {
+          "ten_to_thirty": false,
+          "thirty_to_sixty": true,
+          "sixty_to_ninety": false,
+          "ninety_plus": false
+        },
+        "link" : "./saladepretentieuse",
+        "grocery_list" : [
+            "Extra-Virgin Olive Oil (3/4 cup)",
+            "Fresh Lemon Juice (1/4 cup)",
+            "Dijon Mustard (2 tbsp)",
+            "Honey (1 tbsp)",
+            "Black Pepper, freshly ground (1 tsp)",
+            "Kosher salt (1 tsp, plus more)",
+            "Large Eggs (6)",
+            "1 lb. green beans, trimmed, and/or new or baby potatoes, halved if larger", "Seedless Cucumbers (4 cups)", "Oil-Packed Tuna (3 cups)", "Olives, capers, peperoncini, pickles, or other briny ingredients (for serving)","Flaky Sea Salt"
+        ],
+    "id" : 1,
+    "cooking_instructions" : [
+        "Whisk oil, lemon juice, mustard, honey, pepper, and 1 tsp kosher salt in a medium bowl; set dressing aside","Bring a medium pot of salted water to a boil","Carefull add eggs and cook 7 minutes.","Using a slotted spoon, transfer eggs to a bowl of ice water (keep pot over high heat)","Chill until cold, about 5 minutes.","Peel; set aside.",
+        "Meanwhile, add green beans and potatoes to the same pot of boiling water and cook until just tender-- 2-4 minutes for green beans, 10-15 minutes for potatoes","Using a slotted spoon, transfer to bowl of ice water.","Let sit until cold, about 3 minutes.","Transfer to paper towels; pat dry.","To serve, slice eggs in half and arrange on a platter with cooked and raw vegetables and tuna.","Top with pickled-briny ingredient(s).","Sprinkle with sea salt.","Drizzle some reserved dressing over.","Serve with remaining dressing on the side."
+      ]
+
+    },
+    {
+      "name" : "Butternut Squash Pasta Alfredo",
+      "image_url" : "../assets/images/butternut-squash-alfredo.jpeg",
+      "time" : "40-60 Mins",
+      "difficulty" : "Easy",
+      "restrictions" : {
+          "soy" : false,
+          "dairy" : true,
+          "fish" : false,
+          "nuts" : false
+      },
+      "difficulty_restrictions" : {
+        "easy" : true,
+        "medium" : false,
+        "hard" : false,
+        "very_hard" : false
+      },
+      "time_restrictions" : {
+        "ten_to_thirty": false,
+        "thirty_to_sixty": true,
+        "sixty_to_ninety": false,
+        "ninety_plus": false
+      },
+      "link" : "./Alfredo Squash",
+      "grocery_list" : [
+        "Heavy Cream (3/4 cup.)",
+          "Unsalted butter (3 tsp.)",
+          "Butternut Squash (1 lb.)",
+          "Fresh Nutmeg (1/2 tsp)",
+          "Kosher Salt",
+          "Fettucine (1 lb.)",
+          "Parmesan (2 oz.)"
+      ],
+      "serves" : "4-6",
+      "id" : 2,
+  "cooking_instructions" : [
+    "Cut butter into small pieces",
+    "Cube the butternut squash",
+    "Grate the nutmeg",
+    "Grate the parmesan",
+    "Add cream, butter, squash, and 3/4 cups of water to medium saucepan",
+    "Bring to boil",
+    "Reduce to simmer",
+    "Continue cooking until squash is tender (est. 15 minutes)",
+    "Puree until creamy and smooth (3-5 mins.)",
+    "Add nutmeg and 1 tsp salt",
+    "Bring large pot of saltwater to boil",
+    "Add pasta",
+    "Cook pasta al dente (see package for directions)",
+    "Save 1/2 cup of starchy pasta water",
+    "Drain rest of water",
+    "Stir pasta and parmesan into squash sauce",
+    "Toss until well-coated",
+    "Add starchy pasta water, 1 tbsp at a time, as needed, to loosen the sauce",
+    "Serve with grated Parmesan and/or nutmeg, if desired"
+    ]
+
+  } ,
+
+  {
+    "name" : "Praline Cheesecake",
+    "image_url" : "../assets/images/praline-cheesecake.bmp",
+    "time" : "3+ hours",
+    "difficulty" : "Medium",
+    "restrictions" : {
+        "soy" : false,
+        "dairy" : true,
+        "fish" : false,
+        "nuts" : true
+    },
+    "difficulty_restrictions" : {
+      "easy" : false,
+      "medium" : false,
+      "hard" : false,
+      "very_hard" : false
+    },
+    "time_restrictions" : {
+      "ten_to_thirty": false,
+      "thirty_to_sixty": false,
+      "sixty_to_ninety": false,
+      "ninety_plus": true
+    },
+    "link" : "./Pecan Cheesecake",
+    "grocery_list" : [
+      "Butter (1/4 cup)",
+      "Graham cracker crumbs (1 cup)",
+      "Packed brown sugar (2 cups)",
+      "Chopped pecans (1/3 cup)",
+      "2 packages Cream Cheese, softened (8 oz., each)",
+      "3 Eggs",
+      "Rum-flavored extract (1 1/2 tsp)",
+      "Vanilla extract (1 tsp)",
+      "Maple-flavored extract (3/4 tsp)",
+      "Sour cream (1 3/4 cups)"
+    ],
+    "serves" : "12",
+    "id" : 3,
+    "cooking_instructions" : [
+    "Melt butter in a small saucepan",
+    "Stir in graham cracker crumbs, 3 tbsp brown sugar, and 1/3 cup of chopped nuts",
+    "Pack into an ungreased 9 or 9 1/2-inch springform pan",
+    "The crust is now prepared.",
+    "Beat cream cheese and 1 1/4 cups of brown sugar until smooth and fluffy",
+    "Slowly beat in eggs, one at a time, until blended",
+    "Stir in 1 tsp of rum flavoring, 1 tsp vanilla, 1/4 cup of sour cream, and 1/3 cup of chopped nuts",
+    "Pour filling into pan, on top of the crust.",
+    "Bake at 350 degrees F (175 C) for 55-60 minutes, until set",
+    "Remove pan to cake rack",
+    "Stir together 1 1/2 cups sour cream, 1/4 cup brown sugar, maple flavoring, and 1/2 tsp rum flavoring",
+    "Spread topping over cheesecake",
+    "Return to oven and bake for 10 minutes",
+    "Loosen sides of cake",
+    "Cool until almost room temperature",
+    "Let it chill for a few hours before serving"
+    ]
+
+  },
+
+  {
+    "name" : "Soufflé au Chocolat",
+    "image_url" : "../assets/images/chocosouffle.bmp",
+    "time" : "40 minues",
+    "difficulty" : "Medium",
+    "restrictions" : {
+        "soy" : false,
+        "dairy" : true,
+        "fish" : false,
+        "nuts" :false
+    },
+    "difficulty_restrictions" : {
+      "easy" : false,
+      "medium" : false,
+      "hard" : false,
+      "very_hard" : false
+    },
+    "time_restrictions" : {
+      "ten_to_thirty": false,
+      "thirty_to_sixty": false,
+      "sixty_to_ninety": false,
+      "ninety_plus": true
+    },
+    "link" : "./souffle",
+    "grocery_list" : [
+    "Semisweet chocolate baking squares/bar (6 oz.)",
+    "Eggs (6, with whites and yolks separated)",
+    "Granulated Sugar (2/3 cup)", "Heavy cream or Half n Half (2 tbsp)","Cream of Tartar, (1/4 tsp)", "Butter (1 tbsp, softened)"
+    ],
+    "serves" : "8",
+    "id" : 4,
+    "cooking_instructions" : [
+      "Preheat over to 350 degrees F","Brush softened butter on the insides of the ramekins","Sprinkle granulated sugar all along the inside of each ramekin","Place a medium, heatproof bowl over a small saucepan with simmering water to create a \"makeshift double boiler\"","Place the chocolate in the medium bowl and allow it to completely melt","Remove the bowl and set it on the counter to cool","In a large bowl: whisk the egg yolks and 1/3 cup of granulated sugar until thick and pale (use an electric beater if desired)", "[Goal: make the batter drop from the whisk in a ribbon-like fashion]","Add the cream/half n half to the bowl of now-slightly-cooled melted chocolate","Whisk until combined","Very slowly stream in the egg yolk mixture into the chocolate, whisking vigorously to create an emulsion","Whisk the egg whites with the cream of tartar in the bowl of a stand-mixer at high speed until foamy","Sprinkle in the remaining sugar and continue to whisk on high speed until softly-curled peaks form","Add 1/3 of the whipped eggs whites to your chocolate batter","Whisk the whites in to lighten up the batter","Add another third of a egg whites, but this time, fold them in using a rubber spatula","Add the remaining egg whites by gently folding them in","Use a cookie/ice cream scooper to gently distribute the chocolate batter into the prepared ramekins, until the batter reaches a little past the inner ridge on the inside, near the top","Place the ramekins on a baking sheet and bake the souffles on the middle rack for approximately 16-17 minutes, until they're puffed up and only slightly wobbly in the center","If they're not set, quickly close the oven and bake for another couple of minutes","To serve, quickly remove the souffles from the oven and place on saucers in front of your guests","Be quick, as the souffles will deflate very rapidly!"
+    ]
+
+  }
+
+
+
+]

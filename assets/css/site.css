@@ -1,0 +1,507 @@
+body {
+    background-color: #f1f1f1 !important;
+    font-family: Roboto;
+}
+
+b, strong {
+    font-family: Poppins, Roboto;
+}
+
+.icon-small {
+    width: 50px;
+    height: 50px;
+}
+
+path {
+    fill: white !important;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.btn-outline-dark {
+    color: rgb(40, 53, 53) !important;
+}
+
+.text-dark {
+    color: rgb(40, 53, 53) !important;
+}
+
+.btn {
+    font-family: Poppins, Roboto;
+}
+
+.btn-primary {
+    background-color: crimson;
+    border: solid 0px maroon;
+    border-radius: 0%;
+    box-shadow: 5px 5px 0 rgba(251, 59, 73, .3)
+}
+
+.btn-primary:hover {
+    background-color: rgb(182, 16, 49);
+    box-shadow: 0px 0px 0 rgba(251, 59, 73, .3);
+}
+
+.btn-primary:active {
+    background-color: rgb(138, 31, 51) !important;
+    box-shadow: 0px 0px 0 rgba(251, 59, 73, .3);
+}
+
+.btn-outline-primary {
+    color: crimson;
+    border: solid 1px maroon;
+    box-shadow: 3px 3px 0 rgba(251, 59, 73, .3);
+    border-radius: 0%;
+}
+
+.btn-outline-primary:hover {
+    background-color: crimson;
+    border-color: maroon;
+    box-shadow: 0px 0px 0 rgba(251, 59, 73, .3);
+}
+
+.btn-outline-primary:active {
+    background-color: rgb(138, 31, 51) !important;
+    box-shadow: 0px 0px 0 rgba(251, 59, 73, .3);
+}
+
+.favorite-alert {
+    color: #9e7700;
+    background-color: #fff5d8;
+    border: solid 1px #80730030;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 0px hsla(0, 0%, 0%, 0.10);
+    /* TODO */
+    -webkit-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+    opacity: 1;
+}
+
+.alert-primary {
+    color: darkslateblue;
+    background-color: rgb(225, 242, 253);
+    /* Left border */
+    border: solid 1px #13008030;
+    border-left: solid 3px #5275DC;
+    border-radius: 0%;
+    box-shadow: 0px 1px 2px 0px hsla(0, 0%, 0%, 0.10);
+}
+
+.alert-primary a {
+    color: darkslateblue;
+    text-decoration: underline;
+}
+
+.dropdown {
+    display: inline;
+}
+
+.page-navi-links {
+    display: none;
+}
+
+.dropdown-item:active {
+    color: aliceblue;
+    background-color: crimson;
+}
+
+@media screen and (min-width: 576px) {
+    .dropdown {
+        display: none;
+    }
+    .page-navi-links {
+        display: inherit;
+    }
+}
+
+.display-4 {
+    font-family: Poppins, Roboto;
+}
+
+.navbar .list-group-item {
+    border: solid 0px;
+    padding: .5rem 0.7rem;
+}
+
+.navbar .list-group-item a {
+    color: inherit !important;
+    text-decoration: none;
+    border-bottom: solid 0px crimson;
+    padding-bottom: 5px;
+    -webkit-transition: border-bottom 0.1s ease-in 0s;
+    transition: border-bottom 0.1s ease-in-out 0s;
+}
+
+.navbar .list-group-item a:hover {
+    color: inherit !important;
+    text-decoration: none;
+    border-bottom: solid 2px crimson;
+    padding-bottom: 5px;
+    -webkit-transition: border-bottom 0.1s ease-in 0s;
+    transition: border-bottom 0.1s ease-in-out 0s;
+}
+
+h4 {
+    font-family: Poppins;
+    color: rgb(63, 63, 63);
+    display: inline;
+}
+
+h5 {
+    color: rgb(63, 63, 63);
+}
+
+/*
+==============================================================
+                    Styles For Nav Elements
+==============================================================
+*/
+
+.navbar {
+    box-shadow: 0px 2px 4px 0px hsla(0, 0%, 0%, 0.10);
+    /* Top border gradient */
+    border-width: 3px 0 0;
+    border-top-style: solid;
+    border-image: linear-gradient(139deg, #E34234, crimson) 3;
+}
+
+.navbar-brand {
+    font-family: Poppins, Roboto;
+    font-weight: bold;
+}
+
+.favorites-list .list-group-item {
+    border-radius: 0% !important;
+    border-right: solid 0px crimson;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px hsla(0, 0%, 0%, 0.1);
+    -webkit-transition: border-right 0.1s ease-in 0s;
+    transition: border-right 0.1s ease-in-out 0s;
+}
+
+.favorites-list .list-group-item:last-child {
+    margin-bottom: 3%;
+}
+
+.favorites-list .list-group-item:hover {
+    border-right: solid 4px crimson;
+    background-color: white;
+    -webkit-transition: border-right 0.1s ease-in 0s;
+    transition: border-right 0.1s ease-in-out 0s;
+}
+
+.favorites-list .list-group-item:active {
+    border-right: solid 4px maroon;
+    background-color: white;
+}
+
+.jumbotron {
+    background-color: #ffffff !important;
+    box-shadow: 0px 2px 4px 0px hsla(0, 0%, 0%, 0.1);
+    border-radius: 0%;
+}
+
+.card {
+    box-shadow: 0px 2px 6px 0px hsla(0, 0%, 0%, 0.1);
+    border-radius: 0.5rem !important;
+}
+
+.dropdown-toggle {
+    background-color: #ffffff !important;
+    border: solid 0px;
+}
+
+/*
+==============================================================
+                    End Styles For Nav Elements
+==============================================================
+*/
+
+/*
+==============================================================
+                    Styles for radial menu
+==============================================================
+*/
+
+.radial-container {
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1000000;
+    background-color: rgba(255, 255, 255, 0.87) !important;
+    box-shadow: 0px 2px 6px 0px hsla(0, 0%, 0%, 0.87);
+    display: none;
+}
+
+.item-active {
+    background-color: blue;
+}
+
+.item>.content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    color: inherit;
+    font-weight: bold;
+}
+
+.item-hover-close {
+    font-size: 50px;
+}
+
+.item-hover-close:hover {
+    background-color: indianred;
+}
+
+.item-hover-content:hover {
+    fill: #343a40;
+    color: aliceblue !important;
+    /* background-color: crimson; */
+    background-color: #B22222;
+}
+
+.item.bg-primary {
+    color: aliceblue !important;
+    background-color: maroon !important;
+}
+
+.anti {
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.custom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    text-align: middle;
+}
+
+.item {
+    transform-origin: center bottom;
+    /*Height should be 1/2 of the radial container */
+    height: 175px;
+    width: 175px;
+    position: relative;
+}
+
+.radial-rotate-container {
+    transform-origin: center center;
+    transform: rotate(45deg);
+}
+
+.middle-buffer {
+    position: absolute;
+    height: 100px;
+    left: 125px;
+    top: 125px;
+    z-index: 50;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.middle-buffer.bg-light {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.radial-navigation {
+    position: relative;
+    text-align: center;
+    top: 33%;
+    border-radius: 50%;
+}
+
+radial-navigation:hover {
+    color: aliceblue;
+}
+
+.exit-navi:hover {
+    background-color: rgb(207, 196, 196) !important;
+}
+
+.rev-navi:hover {
+    background-color: rgb(207, 196, 196) !important;
+}
+
+.radial-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+==============================================================
+                   End Styles for radial menu
+==============================================================
+*/
+
+/*
+==============================================================
+                    Styles for recipe preview
+==============================================================
+*/
+
+.favorites-list .recipe-preview .img-fluid {
+    max-height: 15em;
+    max-width: 15em;
+    /* Disable selection */
+    pointer-events: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Border and drop-shadow */
+
+.img-fluid {
+    border: solid 1px rgba(128, 0, 0, 0.67);
+    box-shadow: 0px 1px 6px 0px hsla(0, 0%, 0%, 0.2);
+}
+
+.recipe-preview .img-fluid {
+    /* Prevents images with x:(x+N) aspect ratios from pushing the lists far down  */
+    max-height: 25em;
+    /* Disable selection */
+    pointer-events: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* .recipe-preview {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: 150%;
+} */
+
+.recipe-dietary {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.recipe-card-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 2%;
+    position: absolute;
+    min-height: 750px;
+}
+
+.card-front {
+    z-index: 10;
+    width: 15%;
+}
+
+.card-back {
+    width: 15%;
+    z-index: 1;
+    transform: translateX(1%);
+}
+
+.card-fake {
+    z-index: 0;
+    transform: translate(2%);
+}
+
+/*Media queries for responsive design on the jumbotron and recipe cards*/
+
+@media only screen and (max-width: 900px) {
+    .recipe-card {
+        width: 90% !important;
+    }
+}
+
+.recipe-card {
+    width: 33%;
+}
+
+.help-overlay {
+    position: fixed;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.favorite-button {
+    font-size: 125%;
+    margin-bottom: 1em;
+}
+
+.favorite-container {
+    min-height: 66px;
+    display: flex;
+}
+
+.transition-ease-linear {
+    transition: all .5s linear;
+}
+
+.strikethrough {
+    text-decoration: line-through rgb(40, 53, 53);
+    color: gray;
+    text-decoration: line-through gray;
+}
+
+.not-favorite:hover {
+    color: #ffd24c;
+}
+
+.favorited {
+    color: #ffd24c;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/*
+==============================================================
+                    End Styles for radial menu
+==============================================================
+*/
+
+#map-container{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+.ol-zoom{
+    top: 500px !important;
+}
+.marker{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
